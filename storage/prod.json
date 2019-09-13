@@ -1,0 +1,129 @@
+{
+    "name": "Bar's Home",
+    "server_ip_address": "172.16.254.254",
+    "server_port_number": 6670,
+    "client_ip_address": "",
+    "client_port_number": 6666,
+    "db_connection_string": "mongodb://mongo:27017/mox-home",
+    "redis_connection_options": {
+      "host": "redis",
+      "port": 6379
+    },
+    "entries":
+    [
+      {
+        "room_name": "כללי",
+        "image": "",
+        "accessories":
+        [
+          { "type": "light", "module_id": "0x0000c9", "channel_id": "0x17", "name": "מדרגות למרתף" },
+          { "type": "light", "module_id": "0x0000cd", "channel_id": "0x11", "name": "מדרגות לקומה ראשונה" },
+          { "type": "light", "module_id": "0x0000cb", "channel_id": "0x16", "name": "מדרגות לקומה שניה" },
+
+          { "type": "light", "module_id": "0x0000cc", "channel_id": "0x18", "name": "תאורת מסדרון בקומה ראשונה" },
+          { "type": "light", "module_id": "0x0000cf", "channel_id": "0x16", "name": "אורות מרובעים במסדרון קומה ראשונה" },
+          { "type": "light", "module_id": "0x0000cc", "channel_id": "0x14", "name": "מטבח בגג" },
+  
+          { "type": "switch", "module_id": "0x0000cb", "channel_id": "0x15", "name": "דוד שמש" }
+        ]
+      },
+      {
+        "room_name": "חצר",
+        "image": "",
+        "accessories":
+        [
+          { "type": "light", "module_id": "0x0000c8", "channel_id": "0x11", "name": "תאורת חומה" },
+          { "type": "light", "module_id": "0x0000c9", "channel_id": "0x12", "name": "פרוג׳קטור בחניה" },
+          { "type": "light", "module_id": "0x0000c9", "channel_id": "0x11", "name": "פרוג׳קטור חצר לכיוון הסלון" },
+          { "type": "light", "module_id": "0x0000ca", "channel_id": "0x17", "name": "פרוג׳קטור חצר לכיוון הבריכה" },
+          { "type": "light", "module_id": "0x0000cc", "channel_id": "0x15", "name": "מרפסת בגג" },
+          { "type": "light", "module_id": "0x0000cc", "channel_id": "0x17", "name": "אזור מזגנים בגג" }
+        ]
+      },
+      {
+        "room_name": "משרד",
+        "image": "",
+        "accessories":
+        [
+          { "type": "light", "module_id": "0x0000ca", "channel_id": "0x14", "name": "משרד פס תאורה 1" },
+          { "type": "light", "module_id": "0x0000ca", "channel_id": "0x13", "name": "משרד פס תאורה 2" },
+          { "type": "light", "module_id": "0x0000c9", "channel_id": "0x15", "name": "משרד אורות מרובעים 1" },
+          { "type": "light", "module_id": "0x0000c9", "channel_id": "0x16", "name": "משרד אורות מרובעים 2" },
+          { "type": "light", "module_id": "0x0000c9", "channel_id": "0x18", "name": "משרד קיר אורות 1" },
+          { "type": "light", "module_id": "0x0000ca", "channel_id": "0x12", "name": "משרד קיר אורות 2" },
+          { "type": "light", "module_id": "0x0000ca", "channel_id": "0x18", "name": "משרד אור בכיור" }
+        ]
+      },
+      {
+        "room_name": "ממ&quot;ד",
+        "image": "",
+        "accessories":
+        [
+          { "type": "dimmer", "module_id": "0x00012c", "channel_id": "0x12", "name": "אור בממד" },
+          { "type": "dimmer", "module_id": "0x00012c", "channel_id": "0x11", "name": "כניסה לממד" },
+          { "type": "dimmer", "module_id": "0x00012c", "channel_id": "0x13", "name": "מקלחת בממד" },
+          { "type": "light", "module_id": "0x0000c9", "channel_id": "0x14", "name": "פס חדר חשמל" },
+          { "type": "light", "module_id": "0x0000ca", "channel_id": "0x16", "name": "ממד קיר מקלחת" }
+        ]
+      },
+      {
+        "room_name": "קומת כניסה",
+        "image": "",
+        "accessories":
+        [
+          { "type": "light", "module_id": "0x0000cb", "channel_id": "0x14", "name": "אור נסתר במטבח" },
+          { "type": "light", "module_id": "0x0000cb", "channel_id": "0x13", "name": "פס תאורה במטבח" },
+          { "type": "light", "module_id": "0x0000cb", "channel_id": "0x12", "name": "פס תאורה בסלון" },
+          { "type": "light", "module_id": "0x0000cf", "channel_id": "0x11", "name": "אי אור במטבח" },
+          { "type": "light", "module_id": "0x0000cb", "channel_id": "0x11", "name": "פס צבירה במטבח" },
+          { "type": "light", "module_id": "0x0000cd", "channel_id": "0x12", "name": "מרובעים במטבח" },
+          { "type": "light", "module_id": "0x0000cc", "channel_id": "0x13", "name": "כיור ראשי" },
+          { "type": "light", "module_id": "0x0000cd", "channel_id": "0x13", "name": "אור כניסה" },
+          { "type": "light", "module_id": "0x0000ce", "channel_id": "0x15", "name": "מסדרון סלון" },
+          { "type": "light", "module_id": "0x0000cd", "channel_id": "0x14", "name": "סלון מרכזי" },
+          { "type": "light", "module_id": "0x0000ce", "channel_id": "0x12", "name": "ספריה" },
+          { "type": "light", "module_id": "0x0000c9", "channel_id": "0x13", "name": "שירותי אורחים" },
+          { "type": "light", "module_id": "0x0000ca", "channel_id": "0x11", "name": "קיר ספריה" }
+        ]
+      },
+      {
+        "room_name": "חדר הורים",
+        "image": "",
+        "accessories":
+        [
+          { "type": "light", "module_id": "0x0000cc", "channel_id": "0x12", "name": "אור במרפסת הורים" },
+          { "type": "light", "module_id": "0x0000cd", "channel_id": "0x16", "name": "מיטה בחדר הורים" },
+          { "type": "light", "module_id": "0x0000cd", "channel_id": "0x18", "name": "ספוטים במקלחת הורים" },
+          { "type": "light", "module_id": "0x0000ce", "channel_id": "0x16", "name": "תאורה נסתרת במקלחת הורים" },
+          { "type": "light", "module_id": "0x0000ce", "channel_id": "0x13", "name": "חדר ארונות הורים" },
+          { "type": "light", "module_id": "0x0000cf", "channel_id": "0x14", "name": "ספוטים מעל המיטה בחדר הורים" }, 
+          { "type": "light", "module_id": "0x0000cf", "channel_id": "0x18", "name": "כיור מקלחת בחדר הורים" }
+        ]
+      },
+      {
+        "room_name": "החדר של אגם",
+        "image": "",
+        "accessories":
+        [
+          { "type": "light", "module_id": "0x0000cd", "channel_id": "0x15", "name": "ספוטים שולחן בחדר של אגם" },
+          { "type": "light", "module_id": "0x0000ce", "channel_id": "0x18", "name": "תאורה נסתרת בחדר של אגם" },
+          { "type": "light", "module_id": "0x0000ce", "channel_id": "0x17", "name": "פס צבירה בחדר של אגם" },
+          { "type": "light", "module_id": "0x0000ce", "channel_id": "0x11", "name": "כניסה לחדר של אגם" },
+          { "type": "light", "module_id": "0x0000cf", "channel_id": "0x15", "name": "ספוטים ארון בחדר של אגם" },
+          { "type": "light", "module_id": "0x0000cf", "channel_id": "0x17", "name": "מקלחת של אגם" },
+          { "type": "light", "module_id": "0x0000cb", "channel_id": "0x18", "name": "מנורת קיר מזגן בחדר של אגם" },
+          { "type": "light", "module_id": "0x0000cb", "channel_id": "0x17", "name": "מנורת קיר מיטה בחדר של אגם" }
+        ]
+      },
+      {
+        "room_name": "החדר של יהב",
+        "image": "",
+        "accessories":
+        [
+          { "type": "light", "module_id": "0x0000cc", "channel_id": "0x16", "name": "קיר מיטה בחדר של יהב" },
+          { "type": "light", "module_id": "0x0000cc", "channel_id": "0x17", "name": "פס צבירה בחדר של יהב" },
+          { "type": "light", "module_id": "0x0000cf", "channel_id": "0x12", "name": "מקלחת בחדר של יהב" }
+        ]
+      }
+    ]
+}

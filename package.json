@@ -1,0 +1,24 @@
+{
+  "name": "mox-home",
+  "version": "1.0.0",
+  "description": "The general mox smart-home library.",
+  "main": "index.js",
+  "scripts": {
+    "init:dev": "DEBUG=* node ./scripts/initialize.js ./storage/dev.json",
+    "init:prod": "DEBUG=* node ./scripts/initialize.js ./storage/prod.json --db-connection-attempts=10",
+    "daemon:dev": "DEBUG=mox-home node ./scripts/moxd.js",
+    "daemon:prod": "DEBUG=* node ./scripts/moxd.js"
+  },
+  "author": "Yahav B.",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "dgram": "^1.0.1",
+    "dotenv": "^8.1.0",
+    "mongoose": "^5.6.13",
+    "redis": "^2.8.0",
+    "update-dotenv": "^1.1.1",
+    "uuid": "^3.3.3",
+    "yargs": "^14.0.0"
+  }
+}
